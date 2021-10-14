@@ -8,4 +8,4 @@ Instructions to deploying to Azure Virtual Machine (Assuming the Virtual Machine
 4. Select Azure virtual machine for the Specific target.
 5. Select your virtual machine.
 6. Click the publish button and enter the VM credentials.
-7. Website has now been Published
+7. Website has now been published.
