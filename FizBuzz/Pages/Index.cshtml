@@ -1,0 +1,30 @@
+﻿@page
+@model FizBuzz.Pages.Numbers.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NumTable[0].Num)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.NumTable) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Num)
+            </td>
+           
+        </tr>
+}
+    </tbody>
+</table>
